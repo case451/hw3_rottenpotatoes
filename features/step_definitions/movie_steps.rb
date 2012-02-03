@@ -10,11 +10,9 @@ end
 # Make sure that one string (regexp) occurs before or after another one
 #   on the same page
 
-Then /I should see "(.*)" (before|after) "(.*)"/ do |e1, order, e2|
-  # assign a variable 'regex' here that creates a regular expression
-  #  to match the page content against, to make sure that e1 occurs
-  #  before or after e2 as specified in the step.
-  page.content.should match(regex)
+Then /I should see "(.*)" before "(.*)"/ do |e1, e2|
+  #  ensure that that e1 occurs before e2.
+  #  page.content  is the entire content of the page as a string.
 end
 
 # Make it easier to express checking or unchecking several boxes at once

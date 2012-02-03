@@ -24,6 +24,6 @@ Background: movies have been added to database
 Feature: sort movies alphabetically
   # your steps here
 
-Feature: sort movies in increasing order of release_date
+Feature: sort movies in increasing order of release date
   # your steps here
 
