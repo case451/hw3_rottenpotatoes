@@ -19,13 +19,11 @@ Background: movies have been added to database
   | Raiders of the Lost Ark | PG     | 12-Jun-1981  |
   | Chicken Run             | G      | 21-Jun-2000  |
 
-Feature: sort movies alphabetically
+  And I am on the RottenPotatoes home page
 
-  Given I am on the RottenPotatoes home page
+Feature: sort movies alphabetically
   # your steps here
 
 Feature: sort movies in increasing order of release_date
-
-  Given I am on the RottenPotatoes home page
   # your steps here
 
