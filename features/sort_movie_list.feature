@@ -2,11 +2,11 @@ Feature: display list of movies sorted by different criteria
  
   As an avid moviegoer
   So that I can quickly browse movies based on my preferences
-  I want to be able to sort movies by title or release date
+  I want to see movies sorted by title or release date
 
-Background: movies are added to database
+Background: movies have been added to database
   
-  Given I have added the following movies:
+  Given the following movies exist:
   | title                   | rating | release_date |
   | Aladdin                 | G      | 25-Nov-1992  |
   | The Terminator          | R      | 26-Oct-1984  |
