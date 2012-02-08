@@ -21,9 +21,9 @@ Background: movies have been added to database
 
   And I am on the RottenPotatoes home page
 
-Feature: sort movies alphabetically
+Scenario: sort movies alphabetically
   # your steps here
 
-Feature: sort movies in increasing order of release date
+Scenario: sort movies in increasing order of release date
   # your steps here
 
